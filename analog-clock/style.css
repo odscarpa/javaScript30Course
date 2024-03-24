@@ -1,5 +1,5 @@
 html {
-    background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5);
+    background: #ffb3ba url(https://images.unsplash.com/photo-1624355834445-ec4f2ee30e5e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
     font-family: 'helvetica neue', fantasy;
     text-align: center;
@@ -40,7 +40,7 @@ body {
 .hand {
     width: 50%;
     height: 6px;
-    background: black;
+    background: #6B5CC1;
     position: absolute;
     top: 50%;
     transform-origin: 100%;
