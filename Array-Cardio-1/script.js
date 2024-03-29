@@ -20,12 +20,19 @@ const people = [
     'Berne, Eric', 'Berra, Yogi', 'Berry, Wendell', 'Bevan, Aneurin', 'Ben-Gurion, David', 'Bevel, Ken', 'Biden, Joseph', 'Bennington, Chester', 'Bierce, Ambrose',
     'Billings, Josh', 'Birrell, Augustine', 'Blair, Tony', 'Beecher, Henry', 'Biondo, Frank'
 ]
-
+// filters the list of inventors to find those born in the 1500's
 const fifteen = inventors.filter(inventor => inventor.year >= 1500 && inventor.year < 1600)
 console.table(fifteen)
 
+// gives an array of the inventors first and last names
 const fullNames = inventors.map(inventor => `${inventor.first} ${inventor.last}`)
 console.log(fullNames)
+
+//sort's the inventors by birthdate, oldest to youngest
+const ordered = inventors.sort((a, b) => a.year > b.year ? 1 : -1)
+console.table(ordered)
+
+// using .reduce to find out how many years the inventors lived
 
 
 const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ]
