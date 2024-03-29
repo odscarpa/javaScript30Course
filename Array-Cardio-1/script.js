@@ -24,7 +24,8 @@ const people = [
 const fifteen = inventors.filter(inventor => inventor.year >= 1500 && inventor.year < 1600)
 console.table(fifteen)
 
-
+const fullNames = inventors.map(inventor => `${inventor.first} ${inventor.last}`)
+console.log(fullNames)
 
 
 const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ]
