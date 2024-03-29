@@ -46,6 +46,14 @@ const oldest = inventors.sort(function (a, b) {
 })
 console.table(oldest)
 
-//
+// creates a list of all Boulevards in Paris that contain 'de' anywhere in the name
+// https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
+const category = document.querySelector('.mw-category')
+const links = [...category.querySelectorAll('a')]
+const de = links
+    .map(link => link.textContent)
+    .filter(streetName => streetName.includes('de'))
+
+
 
 const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ]
