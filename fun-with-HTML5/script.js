@@ -5,7 +5,7 @@ canvas.height = window.innerHeight
 ctx.strokeStyle = '#BADA55'
 ctx.lineJoin = 'round'
 ctx.lineCap = 'round'
-ctx.lineWidth = 90
+ctx.lineWidth = 60
 ctx.globalCompositeOperation = 'destination-over'
 
 let isDrawing = false
@@ -28,14 +28,14 @@ function draw(e) {
     if(hue >= 360) {
         hue = 0
     }
-    if(ctx.lineWidth >= 90 || ctx.lineWidth <= 20 ) {
-        direction = !direction
-    }
-    if(direction){
-        ctx.lineWidth++
-    }else {
-        ctx.lineWidth--
-    }
+    // if(ctx.lineWidth >= 90 || ctx.lineWidth <= 20 ) {
+    //     direction = !direction
+    // }
+    // if(direction){
+    //     ctx.lineWidth++
+    // }else {
+    //     ctx.lineWidth--
+    // }
 
 
 }
