@@ -31,3 +31,6 @@ function setOption() {
     msg[this.name] = this.value;
     toggle();
 }
+
+speechSynthesis.addEventListener('voiceschanged', populateVoices);
+voicesDropdown.addEventListener('change', setVoice);
