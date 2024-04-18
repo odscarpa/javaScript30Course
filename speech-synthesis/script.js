@@ -25,3 +25,9 @@ function toggle(startOver = true) {
         speechSynthesis.speak(msg);
     }
 }
+
+function setOption() {
+    console.log(this.name, this.value);
+    msg[this.name] = this.value;
+    toggle();
+}
