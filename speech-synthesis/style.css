@@ -26,8 +26,11 @@ body {
     /*background: rgb(148,58,232);*/
     /*background: linear-gradient(115deg, rgba(148,58,232,1) 0%, rgba(67,222,223,1) 50%, rgba(255,55,55,1) 100%);*/
 
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    /*background: rgb(238,174,202);*/
+    /*background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);*/
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 
     /*background-image:*/
     /*        repeating-radial-gradient(circle at 100% 150%, #3BC1AC 24%, #42D2BB 25%, #42D2BB 28%, #3BC1AC 29%, #3BC1AC 36%, #42D2BB 36%, #42D2BB 40%, transparent 40%, transparent),*/
