@@ -137,6 +137,7 @@ a.button {
 }
 
 /* Matches Twitter, TWITTER, twitter, tWitter, TWiTTeR... */
-.button[href*=twitter] { background: #019FE9; }
-.button[href*=facebook] { background: #3B5998; }
-.button[href*=courses] { background: #ffc600; }
+.button[href*=linkedin] { background: #3B5998; }
+.button[href*=github] { background: #000000; }
+.button[href*=oscarpa] { background: #0e142a; }
+.button[href*=nicolefornm] { background: #018d9d; }
